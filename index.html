@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juan Medina — Software Engineer &amp; Founder</title>
+  <meta name="description" content="Juan Medina — software engineer and founder building software products from zero to one.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <!-- nav -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">Juan Medina</a>
+      <nav class="nav__links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav__toggle" id="menuToggle" aria-label="Menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span class="nav__bar"></span>
+        <span class="nav__bar"></span>
+      </button>
+    </div>
+    <nav class="nav__mobile" id="mobileMenu" hidden>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- hero -->
+  <section class="hero">
+    <span class="eyebrow">Software Engineer · Founder</span>
+    <h1 class="hero__title">Software engineer.<br>Product builder.<br>Entrepreneur.</h1>
+    <p class="hero__lead">I like building software businesses from the ground up — designing the backend, shaping the product, and improving it through real customer feedback. I enjoy taking ideas from zero to something people actually use.</p>
+    <div class="hero__actions">
+      <a href="#work" class="btn btn--primary">View projects</a>
+      <a href="#contact" class="btn btn--ghost">Contact</a>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section id="about" class="about">
+    <span class="eyebrow">About</span>
+    <div class="about__body">
+      <p>I'm a software engineer who cares as much about the business as the code. Most of my work lives on the backend — designing systems, APIs, and the quiet infrastructure that makes a product dependable.</p>
+      <p>But I've never been satisfied stopping at "it works." I like building SaaS products end to end: talking to customers, shaping the roadmap, and making the product and design calls that engineers often hand off to someone else.</p>
+      <p>What I enjoy most is the zero-to-one moment — turning a rough idea into something people rely on. Balancing engineering with business and design decisions is where I do my best work.</p>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section id="work" class="work">
+    <div class="work__inner">
+      <div class="work__head">
+        <h2>Things I've built</h2>
+        <p>Products I've created — not client work.</p>
+      </div>
+      <div class="work__grid">
+
+        <article class="card">
+          <div class="card__meta">
+            <span>2021 — Present</span>
+            <span>Co-founder</span>
+            <span>Service business</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3>Remodela Mi Depa</h3>
+              <span class="status"><span class="status__dot" style="background:#16a34a;"></span>Live</span>
+            </div>
+            <p class="card__blurb">A residential interior design and remodeling studio I co-founded in Mexico City. From marketing and sales to operations, it taught me how to build a service business and deeply understand customer problems.</p>
+            <div class="card__links">
+              <a href="https://remodelamidepa.com" target="_blank" rel="noopener">Visit ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__meta">
+            <span>2024 — Present</span>
+            <span>Founder</span>
+            <span>SaaS</span>
+          </div>
+          <div class="card__body">
+            <div class="card__title">
+              <h3>Andamio</h3>
+              <span class="status"><span class="status__dot" style="background:#e5533c;"></span>Building</span>
+            </div>
+            <p class="card__blurb">An internal platform that grew out of Remodela Mi Depa to manage projects, client communication, and business operations. It's evolving into a SaaS for small architecture and design studios.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="contact" class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="footer__name">Juan Medina</span>
+        <span class="footer__tag">Building software products, one at a time.</span>
+      </div>
+      <nav class="footer__links">
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://x.com" target="_blank" rel="noopener">X</a>
+        <a href="mailto:hello@example.com">Email</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
